@@ -1,0 +1,11 @@
+h1 {
+    color: blue; /* Warna teks biru */
+} 
+
+ h2 {
+    color: #ff0000; /* Warna teks merah dalam format HEX */
+} 
+
+ h3 {
+    color: rgb(255, 0, 255); /* Warna teks magenta dalam format RGB */
+} 
