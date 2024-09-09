@@ -1,0 +1,16 @@
+p {
+    color: blue; /* Warna teks biru */
+    text-align: center; /* Perataan teks ke tengah */
+    text-decoration: underline; /* Teks dengan garis bawah */
+    line-height: 1.5; /* Tinggi baris 1.5 kali ukuran font */
+    letter-spacing: 1px; /* Jarak antar huruf 1 piksel */
+}
+
+p {
+    font-size: 18px; /* Ukuran teks 16 piksel */
+}
+
+h1 {
+    font-size: 2em; /* Ukuran teks 2 kali ukuran font dari elemen induknya */
+}
+
