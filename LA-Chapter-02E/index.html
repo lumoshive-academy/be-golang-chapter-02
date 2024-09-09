@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Selektor CSS</title>
+    <!-- style expternal -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Selector ID -->
+        <div id="header">Ini adalah header</div>
+    
+    <!-- Selector Elemen -->
+        <p>Ini adalah paragraf biasa.</p>
+    
+    <!-- Selector Kelas -->
+        <p class="highlight">Ini adalah paragraf dengan kelas "highlight".</p>
+        <!-- Selector Elemen di dalam elemen div -->
+        <div>
+            <p>Paragraf ini berada di dalam elemen div dan berwarna hijau karena selector descendant.</p>
+            <p>Paragraf ini juga berada di dalam elemen div tetapi berwarna merah karena selector child.</p>
+        </div>
+        <!-- Adjacent Sibling Selector -->
+        <h1>Ini adalah heading</h1>
+        <p>Paragraf ini mengikuti langsung setelah heading dan memiliki border karena selector adjacent sibling.</p>
+    
+    <!-- General Sibling Selector -->
+        <h1>Heading lainnya</h1>
+        <p>Paragraf ini adalah saudara dari heading dan memiliki latar belakang abu-abu karena selector general sibling.</p>
+    
+    <!-- Pseudo-Class Selector -->
+        <a href="#">Ini adalah tautan (link). Arahkan mouse ke sini untuk melihat efek hover.</a>
+    
+    <!-- Pseudo-Element Selector -->
+        <p>Paragraf ini memiliki teks tebal pada baris pertamanya karena selector pseudo-element.</p>
+</body>
+</html>
+            
+

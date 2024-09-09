@@ -1,0 +1,55 @@
+/* Selector Elemen */
+h1 {
+    color: blue;
+}
+
+/* Selector Kelas */
+.highlight {
+    background-color: yellow;
+}
+
+/* Selector ID */
+#unique {
+    font-weight: bold;
+}
+
+/* Selector Universal */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Selector Kombinasi */
+div p {
+    font-style: italic;
+}
+
+/* Child Selector */
+div > p {
+    color: red;
+}
+
+/* Adjacent Sibling Selector */
+h1 + p {
+    border: 1px solid black;
+}
+
+/* General Sibling Selector */
+h1 ~ p {
+    background-color: green;
+}
+
+/* Pseudo-Class Selector */
+a:hover {
+    color: orange;
+}
+
+/* Pseudo-Element Selector */
+p::first-line {
+    font-weight: bold;
+}
+
+
+
+
+
+
