@@ -8,4 +8,13 @@ h1 {
 
  h3 {
     color: rgb(255, 0, 255); /* Warna teks magenta dalam format RGB */
-} 
+}
+
+body {
+    background-color: #f0f0f0; /* Warna latar belakang abu-abu dalam format HEX */
+}
+
+div {
+    background-color: rgb(0, 128, 0); /* Warna latar belakang hijau dalam format RGB */
+}
+
